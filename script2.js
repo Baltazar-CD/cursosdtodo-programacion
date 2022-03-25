@@ -18,13 +18,13 @@ popupWhatsApp = () => {
   let msg = document.getElementById('whats-in').value;
   let relmsg = msg.replace(/ /g,"%20");
      
-   window.open('http://Wa.me/+525525076963?text='+relmsg, '_blank'); 
+   window.open('http://Wa.me/+524447003524?text='+relmsg, '_blank'); 
   
   });
 
   setTimeout(() => {
     popup.classList.toggle('is-active-whatsapp-popup');
-  }, 7000);
+  }, 8000);
 }
 
 popupWhatsApp();
