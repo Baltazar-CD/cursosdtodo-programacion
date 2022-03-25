@@ -238,17 +238,17 @@
          ===============================================*/
         $('.partner-carousel').owlCarousel({
             loop: false,
-            margin: 30,
+            margin: 15,
             nav: false,
             navText: [
                 "<i class='ti-angle-left'></i>",
                 "<i class='ti-angle-right'></i>"
             ],
             dots: false,
-            autoplay: true,
+            autoplay: false,
             responsive: {
                 0: {
-                    items: 2
+                    items: 4
                 },
                 600: {
                     items: 3,
